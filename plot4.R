@@ -4,7 +4,7 @@
 source("GetData.R")
 power.sample <- GetData()
 
-png("plot4.png",h=504,w=504)
+png("plot4.png",h=480,w=480)
 par(mfrow=c(2,2))
 #This is nearly identical to plot 2.
 plot( Global_active_power ~ Date, power.sample, type="l",col="black",

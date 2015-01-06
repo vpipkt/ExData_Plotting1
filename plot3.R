@@ -4,7 +4,7 @@
 source("GetData.R")
 power.sample <- GetData()
 
-png("plot3.png",h=504,w=504)
+png("plot3.png",h=480,w=480)
 plot(Sub_metering_1 ~ Date, power.sample, type="l",col="black",
      ylab="Energy sub metering", xlab="")
 lines(Sub_metering_2 ~ Date, power.sample, type="l", col="red")

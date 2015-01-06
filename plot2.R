@@ -3,7 +3,7 @@
 source("GetData.R")
 power.sample <- GetData()
 
-png("plot2.png",h=504,w=504)
+png("plot2.png",h=480,w=480)
 plot( Global_active_power ~ Date, power.sample, type="l",col="black",
       xlab="",ylab="Global Active Power (kilowatts)")
 dev.off()
